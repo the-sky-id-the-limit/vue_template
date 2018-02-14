@@ -1,0 +1,316 @@
+/**
+ * 共通で使用するcssを記載します。
+ * アプリを跨いでも使えるようなものが理想です。
+ */
+
+@charset="utf-8"
+/***** tag *****/
+body {
+  width: 100%;
+}
+
+/***** a-tag *****/
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/***** h-tag *****/
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* background-color 背景色 */
+.bgc-black     { background-color: black}
+.bgc-gray      { background-color: gray}
+.bgc-silver    { background-color: silver}
+.bgc-white     { background-color: white}
+.bgc-blue      { background-color: blue}
+.bgc-navy      { background-color: navy}
+.bgc-teal      { background-color: teal}
+.bgc-green     { background-color: green}
+.bgc-aqua      { background-color: aqua}
+.bgc-yellow    { background-color: #FFCC00}
+.bgc-red       { background-color: red}
+.bgc-fuchsia   { background-color: fuchsia}
+.bgc-olive     { background-color: olive}
+.bgc-purple    { background-color: purple}
+.bgc-maroon    { background-color: maroon}
+.bgc-gainsboro { background-color: Gainsboro}
+.bgc-orange    { background-color: orange}
+
+/* border 境界線 */
+.bd1    { border: 1px solid #ccc; }
+.bdt1   { border-top: 1px solid #ccc }
+.bdr1   { border-right: : 1px solid #ccc }
+.bdb1   { border-bottom: 1px solid #ccc }
+.bdl1   { border-left: 1px solid #ccc }
+
+/* color 文字色 */
+.cl-black     { color: black}
+.cl-gray      { color: gray}
+.cl-silver    { color: silver}
+.cl-white     { color: white}
+.cl-blue      { color: blue}
+.cl-navy      { color: navy}
+.cl-teal      { color: teal}
+.cl-green     { color: green}
+.cl-aqua      { color: aqua}
+.cl-yellow    { color: #FFCC00}
+.cl-red       { color: red}
+.cl-orange    { color: orange}
+.cl-fuchsia   { color: fuchsia}
+.cl-olive     { color: olive}
+.cl-purple    { color: purple}
+.cl-maroon    { color: maroon}
+.cl-gainsboro { color: Gainsboro}
+
+/* display */
+/* .blockBox */
+.dspn        { display: none; }
+.dspb        { display: block; }
+.dspi        { display: inline; }
+.dspi-block  { display: inline-block; }
+.dspi-table  { display: inline-table; }
+
+/* font フォント */
+.fts8 { font-size: 8px}
+.fts9 { font-size: 9px}
+.fts10 { font-size: 10px}
+.fts12 { font-size: 12px}
+.fts14 { font-size: 14px}
+.fts16 { font-size: 16px}
+.fts18 { font-size: 18px}
+
+.ftw-bold { font-weight: bold;}
+.ftw-normal { font-weight: normal;}
+.ftw-border { font-weight: bolder;}
+.ftw-lighter { font-weight: lighter;}
+.ftw-100 { font-weight: 100;}
+.ftw-200 { font-weight: 200;;}
+.ftw-300 { font-weight: 300;}
+
+/* height */
+.hg10per  { height:  10%; }
+.hg20per  { height:  15%; }
+.hg20per  { height:  20%; }
+.hg25per  { height:  25%; }
+.hg30per  { height:  30%; }
+.hg35per  { height:  35%; }
+.hg40per  { height:  40%; }
+.hg45per  { height:  45%; }
+.hg50per  { height:  50%; }
+.hg55per  { height:  55%; }
+.hg60per  { height:  60%; }
+.hg65per  { height:  65%; }
+.hg70per  { height:  70%; }
+.hg75per  { height:  75%; }
+.hg80per  { height:  80%; }
+.hg85per  { height:  85%; }
+.hg90per  { height:  90%; }
+.hg95per  { height:  95%; }
+.hg100per { height: 100%; }
+
+.hg10px  { height:  10px; }
+.hg20px  { height:  20px; }
+.hg30px  { height:  30px; }
+.hg40px  { height:  40px; }
+.hg50px  { height:  50px; }
+.hg60px  { height:  60px; }
+.hg70px  { height:  70px; }
+.hg80px  { height:  80px; }
+.hg90px  { height:  90px; }
+.hg100px { height: 100px; }
+.hg110px { height: 110px; }
+.hg120px { height: 120px; }
+.hg130px { height: 130px; }
+.hg140px { height: 140px; }
+.hg150px { height: 150px; }
+.hg160px { height: 160px; }
+.hg170px { height: 170px; }
+.hg180px { height: 180px; }
+.hg190px { height: 190px; }
+.hg200px { height: 200px; }
+.hg210px { height: 210px; }
+.hg220px { height: 220px; }
+.hg230px { height: 230px; }
+.hg240px { height: 240px; }
+.hg250px { height: 250px; }
+.hg260px { height: 260px; }
+.hg270px { height: 270px; }
+.hg280px { height: 280px; }
+.hg290px { height: 290px; }
+.hg300px { height: 300px; }
+.hg310px { height: 310px; }
+.hg320px { height: 320px; }
+.hg330px { height: 330px; }
+.hg340px { height: 340px; }
+.hg350px { height: 350px; }
+.hg360px { height: 360px; }
+.hg370px { height: 370px; }
+.hg380px { height: 380px; }
+.hg390px { height: 390px; }
+.hg400px { height: 400px; }
+.hg410px { height: 410px; }
+.hg420px { height: 420px; }
+.hg430px { height: 430px; }
+.hg440px { height: 440px; }
+.hg450px { height: 450px; }
+
+/* list-style-type リストスタイル */
+.lst-n     { list-style-type: none; }
+.lst-di    { list-style-type: disc; }
+.lst-c     { list-style-type: circle; }
+.lst-s     { list-style-type: square; }
+.lst-lr    { list-style-type: lower-roman; }
+.lst-ur    { list-style-type: upper-roman; }
+.lst-lg    { list-style-type: lower-greek; }
+.lst-dm    { list-style-type: decimal; }
+.lst-dmz   { list-style-type: decimal-leading-zero; }
+.lst-la     { list-style-type: lower-alpha; }
+.lst-ua     { list-style-type: upper-alpha; }
+
+/* margin マージン */
+.mg3 { margin : 3px;}
+.mg5 { margin : 5px;}
+.mg10 { margin : 10px;}
+.mg15 { margin : 15px;}
+.mg20 { margin : 20px;}
+.mg25 { margin : 25px;}
+.mg30 { margin : 30px;}
+
+.mg-auto { margin : 0 auto;}
+.mgt-auto { margin-top : auto;}
+.mgr-auto { margin-right : auto;}
+.mgb-auto { margin-bottom : auto;}
+.mgl-auto { margin-left : auto;}
+
+.mgt3 { margin-top : 3px;}
+.mgt5 { margin-top : 5px;}
+.mgt10 { margin-top : 10px;}
+.mgt15 { margin-top : 15px;}
+.mgt20 { margin-top : 20px;}
+.mgt25 { margin-top : 25px;}
+.mgt30 { margin-top : 30px;}
+
+.mgl3 { margin-left : 3px;}
+.mgl5 { margin-left : 5px;}
+.mgl10 { margin-left : 10px;}
+.mgl15 { margin-left : 15px;}
+.mgl20 { margin-left : 20px;}
+.mgl25 { margin-left : 25px;}
+.mgl30 { margin-left : 30px;}
+.mgl50 { margin-left : 50px;}
+
+/* text-align */
+.tac { text-align: center; }
+.tar { text-align: right; }
+.tal { text-align: left; }
+
+/* width */
+.wd10per  { width:  10%; }
+.wd20per  { width:  15%; }
+.wd20per  { width:  20%; }
+.wd25per  { width:  25%; }
+.wd30per  { width:  30%; }
+.wd35per  { width:  35%; }
+.wd40per  { width:  40%; }
+.wd45per  { width:  45%; }
+.wd50per  { width:  50%; }
+.wd55per  { width:  55%; }
+.wd60per  { width:  60%; }
+.wd65per  { width:  65%; }
+.wd70per  { width:  70%; }
+.wd75per  { width:  75%; }
+.wd80per  { width:  80%; }
+.wd85per  { width:  85%; }
+.wd90per  { width:  90%; }
+.wd95per  { width:  95%; }
+.wd100per { width: 100%; }
+
+.wd10px  { width:  10px; }
+.wd20px  { width:  20px; }
+.wd30px  { width:  30px; }
+.wd40px  { width:  40px; }
+.wd50px  { width:  50px; }
+.wd60px  { width:  60px; }
+.wd70px  { width:  70px; }
+.wd80px  { width:  80px; }
+.wd90px  { width:  90px; }
+.wd100px { width: 100px; }
+.wd110px { width: 110px; }
+.wd120px { width: 120px; }
+.wd130px { width: 130px; }
+.wd140px { width: 140px; }
+.wd150px { width: 150px; }
+.wd160px { width: 160px; }
+.wd170px { width: 170px; }
+.wd180px { width: 180px; }
+.wd190px { width: 190px; }
+.wd200px { width: 200px; }
+.wd210px { width: 210px; }
+.wd220px { width: 220px; }
+.wd230px { width: 230px; }
+.wd240px { width: 240px; }
+.wd250px { width: 250px; }
+.wd260px { width: 260px; }
+.wd270px { width: 270px; }
+.wd280px { width: 280px; }
+.wd290px { width: 290px; }
+.wd300px { width: 300px; }
+.wd310px { width: 310px; }
+.wd320px { width: 320px; }
+.wd330px { width: 330px; }
+.wd340px { width: 340px; }
+.wd350px { width: 350px; }
+.wd360px { width: 360px; }
+.wd370px { width: 370px; }
+.wd380px { width: 380px; }
+.wd390px { width: 390px; }
+.wd400px { width: 400px; }
+.wd410px { width: 410px; }
+.wd420px { width: 420px; }
+.wd430px { width: 430px; }
+.wd440px { width: 440px; }
+.wd450px { width: 450px; }
+
+/** データなし */
+.no-data {
+  text-align: center;
+  font-weight: bold;
+  margin: 40px;
+}

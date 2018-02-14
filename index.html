@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vue.jsテンプレート</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/sidebar.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+	<div id="app">
+		<div class="container">
+			<headers></headers>
+			<div class="construct">
+				<div class="main">
+					<router-view></router-view>
+				</div>
+				<sidebars></sidebars>
+			</div><!-- .construct -->
+			<footers></footers>
+		</div><!-- .container -->
+	</div>
+</body>
+<!-- vue関連 -->
+<script src="js/vue/vue.min.js"></script>
+<script src="js/vue/vue-router.js"></script>
+<!-- storage関連 -->
+<script src="js/storage/commonStorage.js"></script>
+<script src="js/storage/storage.js"></script>
+<!-- アプリ関連 -->
+<script src="js/app/common.js"></script>
+<script src="js/app/data.js"></script>
+<script src="js/app/calendar.js"></script>
+<!-- フィルター関連 -->
+<script src="js/filter/filter.js"></script>
+<!-- コンポーネント関連 -->
+<script src="js/components/commonComponent.js"></script>
+<script src="js/components/mainComponent.js"></script>
+<!-- ルーター関連 -->
+<script src="js/routers/router.js"></script>
+<script>
+	// Vueインスタンス作成
+	var app = new Vue({
+		el : "#app",
+		router
+	})
+</script>
+</html>

@@ -1,0 +1,112 @@
+@charset="utf-8";
+
+/***************
+  sidebar-common
+****************/
+
+/***** .sidebar *****/
+.sidebar {
+  float: left;
+  width: 310px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.sidebar section{
+  background-color: #fff;
+  width: 300px;
+  margin: 10px 5px;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.1); 
+}
+
+.sidebar section h2{
+  margin: 0 auto;
+  width: 294px;
+  color: #fff;
+  background-color: #333;
+  text-align: center;
+  border-left: 6px solid orange;
+}
+
+.side-detail{
+  padding: 10px 20px;
+}
+
+.side-detail ul{
+  list-style: none;
+}
+
+
+.detail-link:link {
+  text-decoration: underline;
+  color: blue;
+}
+
+.detail-link:visited {
+  text-decoration: underline;
+  color: purple;
+}
+
+.detail-link:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.detail-link:active {
+  text-decoration: underline;
+  color: red;
+}
+
+
+
+/***************
+  sidebar-large
+****************/
+
+@media (max-width: 1140px) {
+
+}
+
+/***************
+  sidebar-medium-large
+****************/
+
+@media (max-width: 970px) {
+
+}
+
+/***************
+  sidebar-medium
+****************/
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none
+  }
+}
+
+/***************
+  sidebar-medium-min
+****************/
+
+@media (max-width: 570px) {
+
+}
+
+
+/***************
+  sidebar-min
+****************/
+
+@media (max-width: 480px) {
+
+}
+
+/***************
+  sidebar-minmum
+****************/
+
+@media (max-width: 420px) {
+
+}
+
